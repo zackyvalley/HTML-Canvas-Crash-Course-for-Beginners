@@ -1,0 +1,55 @@
+{
+  "name": "vue-playground",
+  "version": "1.0.0",
+  "description": "vue-playground",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --watch --config webpack.dev.js",
+    "build": "webpack --config webpack.prod.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.13.15",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-env": "^7.13.15",
+    "@babel/preset-react": "^7.13.13",
+    "autoprefixer": "^10.2.5",
+    "babel-loader": "^8.2.2",
+    "beautify-html-webpack-plugin": "^1.0.3",
+    "browser-sync": "^2.26.14",
+    "browser-sync-webpack-plugin": "^2.3.0",
+    "css-loader": "^5.2.2",
+    "glob": "^7.1.6",
+    "html-loader": "^2.1.2",
+    "html-webpack-plugin": "^5.3.1",
+    "import-glob-loader": "^1.1.0",
+    "jsx-loader": "^0.13.2",
+    "mini-css-extract-plugin": "^1.5.0",
+    "postcss-loader": "^5.2.0",
+    "prettier": "^2.2.1",
+    "prettier-webpack-plugin": "^1.2.0",
+    "pug-html-loader": "^1.1.5",
+    "react-helmet": "^6.1.0",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
+    "sass": "^1.32.10",
+    "sass-loader": "^11.0.1",
+    "siimple": "^3.3.1",
+    "static-site-generator-webpack-plugin": "^3.4.2",
+    "webpack": "^5.33.2",
+    "webpack-cli": "^4.6.0",
+    "webpack-merge": "^5.7.3"
+  },
+  "dependencies": {
+    "create-react-class": "^15.7.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "browserslist": [
+    "last 2 version",
+    "> 5%",
+    "ie >= 9"
+  ]
+}
