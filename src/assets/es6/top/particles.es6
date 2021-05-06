@@ -4,8 +4,8 @@ export default class Particles {
     this.y = y;
     this.hue = hue;
     this.size = Math.random() * 15 + 1;
-    this.speedX = Math.random() * 3 - 1.5;
-    this.speedY = Math.random() * 3 - 1.5;
+    this.speedX = Math.random() * 20 - 10;
+    this.speedY = Math.random() * 20 - 10;
     this.color = 'hsl(' + this.hue + ', 100%, 50%)';
   }
   update() {
